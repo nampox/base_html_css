@@ -1,0 +1,101 @@
+/*reset css*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, sans-serif;
+}
+
+#main {
+
+}
+
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 46.5px;
+  background-color: black;
+}
+
+#nav {
+  display: inline-block;
+}
+
+#nav > li {
+  display: inline-block;
+  position: relative;
+}
+
+#nav .subnav li {
+  display: block;
+  position: relative;
+}
+
+#nav .subnav li:hover a,
+#nav > li:hover > a {
+  color: #000;
+  background-color: #ccc;
+}
+
+#nav li:hover .subnav {
+  display: block;
+}
+
+#nav .subnav {
+  min-width: 160px;
+  display: none;
+  width: 130%;
+  position: absolute;
+  background-color: white;
+  top: 47px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav a {
+  line-height: 30.5px;
+  padding: 0 12px;
+  color: black;
+}
+
+#nav > li > a {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#nav li a {
+  display: block;
+  text-decoration: none;
+  line-height: 46.5px;
+  padding: 0 24px;
+}
+
+
+.search img {
+  padding: .7%;
+  display: inline-block;
+  float: right;
+  height: 100%;
+}
+
+.search:hover img {
+  display: inline-block;
+  background-color: #f44336;
+
+}
+
+#slider {
+  min-height: 500px;
+  background-color: white;
+}
+
+#content {
+
+}
+
+#footer {
+
+}
