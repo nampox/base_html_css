@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/fonts/icons/themify-icons.css">
 </head>
 <body>
 <div id="main">
@@ -16,23 +17,133 @@
       <li><a href="">Giới thiệu</a></li>
       <li><a href="">Học vấn</a></li>
       <li>
-        <a href="">Sản phẩm</a>
+        <a href="">
+          Sản phẩm
+          <i class="nav-arrow-down ti-angle-down"></i>
+        </a>
         <ul class="subnav">
-          <li><a href="">sản phẩm a</a></li>
-          <li><a href="">sản phẩm b</a></li>
-          <li><a href="">sản phẩm c</a></li>
+          <li><a href="">Bảo hiểm VPI</a></li>
+          <li><a href="">Quản lý bản hàng</a></li>
+          <li><a href="">Quản lý Khách sạn</a></li>
         </ul>
       </li>
       <li><a href="">Liên hệ</a></li>
     </ul>
-    <a class="search" href=""> <img src="../assets/img/search.png" alt=""></a>
+    <div class="search_button">
+      <i class="search-icon ti-search"></i>
+    </div>
   </div>
   <div id="slider">
-
+    <div class="text-content">
+      <h2 class="text-heading">Nam do</h2>
+      <div class="text-description">Sinh viên năm 4 Uneti University</div>
+    </div>
   </div>
   <div id="content">
+    <div class="content-section">
+      <h2 class="section-heading">Giới thiệu về tôi</h2>
+      <p class="section-sub-heading">Web Developer</p>
+      <p class="about-text">Tôi tên là Đỗ Quang Nam, 21 tuổi, đang sinh sống và làm việc tại Hà Nội. Với sự trẻ trung và
+        nhiệt huyết của tôi, đặc biệt khi nói đến công việc và học hỏi.
 
+        Dù mới bước chân vào ngành lập trình viên, nhưng tôi không ngừng nỗ lực và ham học hỏi. Tôi mong muốn có cơ hội
+        được học hỏi thêm kinh nghiệm và đóng góp cho công ty.
+
+        Rất mong được sự cân nhắc và cơ hội để gặp gỡ anh/chị, để tôi có thể thể hiện tinh thần làm việc chuyên nghiệp
+        và sự hăng hái của mình.
+
+      </p>
+      <h2 class="section-heading">kỹ năng</h2>
+      <p class="section-sub-heading">framework đã học</p>
+      <div class="product-list">
+        <div class="product-item">
+          <p class="product-name">Spring boot</p>
+          <img src="/assets/img/slider/spring_boot.png" alt="sản phẩm 1" class="product-img">
+        </div>
+        <div class="product-item">
+          <p class="product-name">Larevel PHP</p>
+          <img src="/assets/img/slider/Laravel.png" alt="sản phẩm 1" class="product-img">
+        </div>
+        <div class="product-item">
+          <p class="product-name">.Net</p>
+          <img src="/assets/img/slider/Net.png" alt="sản phẩm 1" class="product-img">
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="tour-section">
+      <div class="content-section">
+        <h2 class="section-heading text-white">Sản phẩm</h2>
+        <p class="section-sub-heading text-white">nampox</p>
+        <!--        <ul class="skill-list">-->
+        <!--          <li>spring boot <span class="danghoc">đang học</span></li>-->
+        <!--          <li>laravel <span class="danghoc">đang học</span></li>-->
+        <!--          <li>node js <span class="dahoc">3</span></li>-->
+        <!--        </ul>-->
+        <div class="detail-list-product">
+          <div class="detail-item">
+            <img src="/assets/img/band/band-product1.png" alt="san pham 1" class="detail-img">
+            <div class="detail-body">
+              <h3 class="detail-heading">Bảo hiểm VPI</h3>
+              <p class="detail-time">07/2023 - 10/2023</p>
+              <p class="detail-desc">Xây dựng, quản lý thông tin sản phẩm, tin tức. Hỗ trợ khách hàng.</p>
+              <a href="https://gitlab.com/intern-gftech/micproject" class="detail-product-btn">Chi tiết sản phẩm</a>
+            </div>
+          </div>
+          <div class="detail-item">
+            <img src="/assets/img/band/band-product2.png" alt="san pham 1" class="detail-img">
+            <div class="detail-body">
+              <h3 class="detail-heading">Quản lý bản hàng</h3>
+              <p class="detail-time">05/2023 - 06/2023</p>
+              <p class="detail-desc">Quản lý tài khoản,sản phẩm, khách hàng Cho phép khách hàng mua sản phẩm.</p>
+              <a href="https://github.com/nampox/QuanLyBanHang" class="detail-product-btn">Chi tiết sản phẩm</a>
+            </div>
+          </div>
+          <div class="detail-item">
+            <img src="/assets/img/band/band-product3.png" alt="san pham 1" class="detail-img">
+            <div class="detail-body">
+              <h3 class="detail-heading">Quản lý Khách sạn</h3>
+              <p class="detail-time">02/2023 - 04/2023</p>
+              <p class="detail-desc">Quản lý phòng, khách hàng,dịch vụ, hóa đơn, đặt phòng, thêm dịch vụ...</p>
+              <a href="https://gitlab.com/demo9144530/hotel" class="detail-product-btn">Chi tiết sản phẩm</a>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="content-section">
+      <h2 class="section-heading">Liên hệ</h2>
+      <p class="section-sub-heading">Hãy liên hệ với tôi</p>
+
+      <div class="row contact-content">
+        <div class="col col-half contact-info">
+          <p><i class="ti-location-pin">Mỹ đình 2, Hà Nội</i></p>
+          <p><i class="ti-id-badge">Phone: 07831110668</i></p>
+          <p><i class="ti-email">Email: namdo26122002@gmail.com</i></p>
+        </div>
+        <div class="col col-half contact-form">
+          <form action="">
+            <div class="row">
+              <div class="col col-half">
+                <input type="text" name="" placeholder="Name" required id="name" class="form-control">
+              </div>
+              <div class="col col-half">
+                <input type="email" name="" placeholder="Email" required id="email" class="form-control">
+              </div>
+            </div>
+            <div class="row mt-8">
+              <div class="col col-full">
+                <input type="text" name="" placeholder="Message" required id="text" class="form-control">
+              </div>
+            </div>
+            <input class="form-submit-btn mt-16" type="submit" value="Gửi">
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
+
   <div id="footer">
 
   </div>
